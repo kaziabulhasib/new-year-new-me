@@ -1,5 +1,9 @@
+/* Commonly Shared style */
+
 body {
   font-family: "Work Sans", sans-serif;
+  width: 1600px;
+  margin: 0 auto;
 }
 
 .btn-primary {
@@ -44,4 +48,40 @@ body {
   font-size: 16px;
   font-weight: 400;
   color: white;
+}
+
+/* failure sectin style */
+
+.failure {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 200px;
+}
+
+.failure-content {
+  width: 415px;
+}
+
+.failure-content h2 {
+  font-family: inherit;
+  font-size: 40px;
+  line-height: 110%;
+  font-weight: 700;
+  color: #151414;
+}
+
+.failure-content p {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.failure-content ul {
+  list-style: none;
+}
+
+.failure-content ul li:before {
+  content: "✓";
+  line-height: 26px;
 }
